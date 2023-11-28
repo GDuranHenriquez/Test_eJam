@@ -35,4 +35,15 @@
     width: 100%;
     gap: 30px;
   }
+  .imgCheck{
+    width: 16px;
+    height: 16px;
+  }
+  .buttonContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+  }
 }

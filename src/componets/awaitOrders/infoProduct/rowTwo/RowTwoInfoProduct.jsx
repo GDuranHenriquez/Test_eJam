@@ -59,6 +59,11 @@ const RowTwoInfoProduct = () => {
     '&:hover': {
       backgroundColor: '#50993e',
     },
+    '@media screen and (max-width: 768px)': {
+      fontSize: '16px',
+      height: '50px',
+    },
+
   }));
 
   return (

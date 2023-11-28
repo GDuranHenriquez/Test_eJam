@@ -21,3 +21,36 @@
 .contentText p span{
   color: rgba(44, 126, 248, 1);
 }
+
+@media screen and (max-width: 768px) {
+  .containerOferta{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  
+  .imageSave{
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+  }
+  
+  .contentText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding: 0px 16px 0px 0px;
+  }
+  .contentText p{
+    text-align: start;
+  }
+  
+  .contentText p span{
+    text-align: start;
+    color: rgba(44, 126, 248, 1);
+  }
+}
