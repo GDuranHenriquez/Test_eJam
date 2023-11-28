@@ -11,3 +11,20 @@
 #textDescipt{
   color: rgba(0, 0, 0, 1);
 }
+
+@media screen and (max-width: 768px) {
+  .containerText{
+    width: 88%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.6px;
+    justify-content: center;
+    text-align: center;
+  }
+  #textPromo{
+    color: rgba(44, 126, 248, 1);
+  }
+  #textDescipt{
+    color: rgba(0, 0, 0, 1);
+  }
+}

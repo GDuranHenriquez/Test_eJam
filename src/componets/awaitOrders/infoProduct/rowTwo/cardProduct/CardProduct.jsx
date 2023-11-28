@@ -54,6 +54,9 @@ const CardProduct = ({img, ranking, textdescrip, name, price, specialPrice, stoc
           </div>
         </div>        
       </div>
+      <div className={styles.descriptionResposne}>
+        <span style={{fontFamily: 'Manrope, sans-serif'}}>{textdescrip}</span>          
+      </div>
     </Card>
   );
 };
