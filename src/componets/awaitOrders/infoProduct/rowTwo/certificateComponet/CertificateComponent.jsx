@@ -1,5 +1,5 @@
 import styles from './certificate.module.css';
-import CertificateImg from '../../../../../assets/infoProduct/certificateSatisfi.svg?react';
+import certificateSastifi from '../../../../../assets/infoProduct/certificateSastifi.png';
 import PropTypes from 'prop-types';
 
 const CertificateComponent = ({ text }) =>{
@@ -7,7 +7,7 @@ const CertificateComponent = ({ text }) =>{
   return (
     <div className={styles.containerCertificate}>
       <div className={styles.imgCert}>
-        <CertificateImg/>
+        <img src={certificateSastifi} alt="img certificate" />
       </div>      
       <p dangerouslySetInnerHTML={{ __html: text }} style={{fontFamily: 'Manrope, sans-serif'}}/>
     </div>
