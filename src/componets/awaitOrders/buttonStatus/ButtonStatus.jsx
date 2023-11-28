@@ -1,4 +1,4 @@
-import BtnStatus from "./componets/BtnStatus";
+import BtnStatus from "./componets/BtnStatus.jsx";
 import styles from './buttonsStatus.module.css';
  
 
