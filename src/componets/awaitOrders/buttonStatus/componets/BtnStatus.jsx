@@ -35,7 +35,7 @@ const BtnStatus = ({pass, text, status}) => {
       <div className={styles.containerIMG}>
         {getImgStatus(status)}
       </div>
-      <div className={styles.containerText}>
+      <div className={`${styles.containerText} ${status === 'wait'? styles.textBold: ''}`}>
         <p style={{fontFamily: 'Manrope, sans-serif'}}>{text}</p>
       </div>
       
