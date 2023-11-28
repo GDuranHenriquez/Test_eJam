@@ -1,0 +1,23 @@
+.containerOferta{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageSave{
+  width: 32px;
+  height: 32px;
+  margin-left: 15px;
+}
+
+.contentText{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.contentText p span{
+  color: rgba(44, 126, 248, 1);
+}

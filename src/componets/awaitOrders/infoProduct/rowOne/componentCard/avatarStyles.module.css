@@ -1,0 +1,53 @@
+.containerCard{
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 48px);
+  height: max-content;
+  border-radius: 10px;
+  padding: 24px;
+  gap: 18px;
+}
+
+.infoClient{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+.raitingName{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+}
+.nameClient{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-items: center;
+  gap: 10px;
+}
+.nameClient img{
+  width: 126px;
+  height: 16px;
+}
+.nameClient span{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+} 
+
+.coment p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(77, 82, 84, 1);
+  text-align: left;
+
+}

@@ -1,0 +1,13 @@
+.containerText{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44.8px;
+  justify-content: start;
+  text-align: left;
+}
+#textPromo{
+  color: rgba(44, 126, 248, 1);
+}
+#textDescipt{
+  color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,57 @@
+.containerBtn{
+  width: 20%;
+  display: grid;
+  color: black;
+  grid-template-columns: 40px auto;
+  grid-template-rows: 40px;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.containerBtn p{
+  padding: 0;
+  margin: 0;
+}
+.containerIMG{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.containerText{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+}
+.svgnumber {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.number {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  
+}
+.process{
+  color: rgba(44, 126, 248, 1);
+  
+}
+.waitConten{
+  color: white;
+}
+.textWait p{
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.wait{
+  fill: rgba(44, 126, 248, 1);
+}

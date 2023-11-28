@@ -1,0 +1,17 @@
+.containerRow{
+  width: 100%;
+
+}
+
+.containerIMG{
+  width: 100%;
+
+}
+.containerIMG img{
+  width: 100%;
+  height: 591px;
+  border-radius: 10px;
+}
+.containerCard{
+  width: 100%;
+}

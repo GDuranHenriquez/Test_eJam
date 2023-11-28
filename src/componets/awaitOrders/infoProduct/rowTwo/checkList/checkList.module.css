@@ -1,0 +1,21 @@
+.containerCheck{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.containerList{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text p{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+}

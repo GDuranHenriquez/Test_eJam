@@ -1,0 +1,136 @@
+.infoProduct{
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 134px;
+  gap: 20px;
+}
+.imgProduct{
+  border-radius: 10px;
+}
+
+.imgProduct img{
+  border-radius: 10px;
+  width: 100%;
+  height: 136px;
+}
+
+.dataProduct{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+.namePrice{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+.name{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.twoPrice{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  font-weight: 600;
+}
+.twoPrice span{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: rgba(150, 150, 150, 1)
+}
+#specialPrice{
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  line-height: 30.8px;
+  color: rgba(44, 126, 248, 1);
+}
+.onePrice span{
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+  line-height: 30.8px;
+  color: rgba(44, 126, 248, 1);
+}
+
+.stock{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+.elipce{
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  max-width: 16px;
+  min-height: 16px;
+  position: relative;
+}
+.exterElipse{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;  
+  fill:"none";
+  
+}
+.exterElipse circle{
+  stroke: white !important;
+}
+
+.interBlueElipse{
+  fill: rgba(44, 126, 248, 1);
+}
+.interOrangeElipse{
+  fill: orange;
+}
+.interRedElipse{
+  fill: red;
+}
+
+.interElipce{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 9px;
+  height: 9px;
+}
+
+.stock span{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.86px;
+  color: rgba(55, 70, 90, 1);
+}
+
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: start;
+  align-items: start;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgba(77, 82, 84, 1);
+}
+.description span{
+  text-align: left;
+}
+

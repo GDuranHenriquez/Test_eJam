@@ -1,0 +1,42 @@
+.containerLogo{
+  width: calc(100% - 254px);
+  height: 36px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 127px 30px 127px;
+  top: 50px;
+}
+
+.logo1{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 36px;
+}
+
+.logo1 img{
+  width: 192px;
+  height: 36px;
+}
+
+.styled.logo2_1{
+  width: 88px;
+}
+.styled.logo2_2{
+  width: 82px;
+}
+
+.logo2 img{
+  height: 32px;
+}
+.logo2{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,28 @@
+.containerRow{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.imgCheck{
+  width: 22px;
+  height: 22px;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.infoPaymentImg{
+  height: 33px;
+  color: rgba(207, 207, 207, 1);
+}
+.link{
+  padding: 0;
+  margin: 0;
+}
