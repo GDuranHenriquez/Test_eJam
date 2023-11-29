@@ -6,6 +6,7 @@ import TextAwait from "../../componets/awaitOrders/awaitText/TextAwait";
 import styles from "./waitYourOrderPage.module.css"
 import RowOneInfoProduct from "../../componets/awaitOrders/infoProduct/rowOne/RowOneInfoProduct";
 import RowTwoInfoProduct from "../../componets/awaitOrders/infoProduct/rowTwo/RowTwoInfoProduct";
+import Footer from "../../componets/footer/Footer";
 
 const WaitYourOrdersPages = () => {
 
@@ -19,6 +20,7 @@ const WaitYourOrdersPages = () => {
       <RowOneInfoProduct/>
       <RowTwoInfoProduct/>
     </div>
+    <Footer/>
   </div>
 
 }

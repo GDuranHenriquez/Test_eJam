@@ -1,0 +1,47 @@
+.containerFooter{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 47, 61, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 88px;
+  margin-top: 20px;
+}
+.subContainer{
+  width: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  color: rgba(255, 255, 255, 1);
+  height: 100%;
+}
+
+.left{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+}
+
+.right{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.lock{
+  width: 24px;
+  height: 24px;
+}
