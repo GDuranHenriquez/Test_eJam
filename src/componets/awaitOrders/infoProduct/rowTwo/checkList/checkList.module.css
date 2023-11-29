@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 768px) {
   .containerList{
-    width: 90%;
+    width: 100%;
   }
   .containerCheck{
     display: flex;

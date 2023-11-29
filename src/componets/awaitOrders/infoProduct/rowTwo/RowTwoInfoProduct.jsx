@@ -78,7 +78,9 @@ const RowTwoInfoProduct = () => {
 
       <div className={styles.buttonContainer}>
         <ButtonClaim>Yes - Claim my discount {<ArrowForwardIcon/>}</ButtonClaim>
-        <InfoPayment className={styled.infoPaymentImg}/>
+        <div className={styles.containerPaymentImg}>
+          <InfoPayment className={styles.imgInfo}/>
+        </div>
         <Link href="#" color= "rgba(255, 0, 0, 1)" className={styles.link}>No thanks, I don’t want this.</Link>
       </div>
 
