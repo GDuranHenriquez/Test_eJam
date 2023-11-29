@@ -46,7 +46,7 @@
   
   .containerCertificate p{
     width: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 16.8px;
     color: rgba(77, 82, 84, 1);
     text-align: start;
