@@ -11,6 +11,10 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import InfoPayment from '../../../../assets/infoProduct/infoPayment.svg?react';
 import { Link } from '@mui/material';
 import CertificateComponent from './certificateComponet/CertificateComponent';
+import "@fontsource/manrope/400.css";
+import "@fontsource/manrope/700.css";
+import "@fontsource/manrope/500.css";
+
 
 const RowTwoInfoProduct = () => {
   const textCertificate = 'If you are not completely thrilled with your Clarifion - We have a <b>30 day satisfaction guarantee</b>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!'
@@ -81,7 +85,7 @@ const RowTwoInfoProduct = () => {
         <div className={styles.containerPaymentImg}>
           <InfoPayment className={styles.imgInfo}/>
         </div>
-        <Link href="#" color= "rgba(255, 0, 0, 1)" className={styles.link}>No thanks, I don’t want this.</Link>
+        <Link href="#" color= "rgba(255, 0, 0, 1)" className={styles.link} style={{fontFamily: 'Manrope, sans-serif'}}>No thanks, I don’t want this.</Link>
       </div>
 
       <CertificateComponent text={textCertificate}/>

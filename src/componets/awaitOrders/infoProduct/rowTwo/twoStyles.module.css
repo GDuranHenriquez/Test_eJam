@@ -25,6 +25,9 @@
 .link{
   padding: 0;
   margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
 }
 
 @media screen and (max-width: 768px) {
@@ -53,6 +56,13 @@
   .imgInfo{
     width: 100%;
     height: 100%;
+  }
+  .link{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.39px;
   }
   
 }
